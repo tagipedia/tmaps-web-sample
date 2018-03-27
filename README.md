@@ -13,7 +13,7 @@ it works using dispatch actions between your APP and TMaps. So your APP dispatch
 
 #### <a name="READY">Ready</a>
 
-dispatched when TMaps ready to receive dispatches from Your APP. So **you should not dispatch any action before TMaps get ready**.
+dispatched when TMaps ready to receive dispatches from Your APP. in order to make easy integration with **Web only** we will not execute your dispatches until map get ready so feel free to dispatch any action before map get ready.
 
 ```js
 {

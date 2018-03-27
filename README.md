@@ -414,8 +414,8 @@ dispatchToContainer(action)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**action**
 &nbsp;&nbsp;&nbsp;&nbsp;**Required** *Object* with *type*, *CUSTOM_KEYS_YOU_NEED* keys.<br />
-*type* is *NSString* value.<br />
-*CUSTOM_KEYS_YOU_NEED* is any of *NSString*, *NSNumber*, *NSArray*, *NSDictionary* values.<br />
+*type* is *String* value.<br />
+*CUSTOM_KEYS_YOU_NEED* is any of *String*, *Number*, *Array*, *Object* values.<br />
 ___
 #### closeInfo
 

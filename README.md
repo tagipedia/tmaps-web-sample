@@ -331,6 +331,52 @@ dispatch it to mark feature.
 &nbsp;&nbsp;&nbsp;&nbsp;**feature_id**
 &nbsp;&nbsp;&nbsp;&nbsp;**Required** *String* with valid feature id
 
+___
+
+#### Set/Update heatmap data
+
+dispatch it to set/update heatmap data, can be dispatched in two forms.
+
+location/value form.
+```js
+{
+ type: 'UPDATE_HEAT_MAP_DATA',
+ data: [
+   {
+    "location": [longitude,latitude],
+     "value" : value
+   }
+ ]
+}
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;**location**
+&nbsp;&nbsp;&nbsp;&nbsp;**Required** *Array* of *Numbers*
+
+&nbsp;&nbsp;&nbsp;&nbsp;**value**
+&nbsp;&nbsp;&nbsp;&nbsp;**Required** *Number*
+
+
+feature/value form.
+```js
+{
+ type: 'UPDATE_HEAT_MAP_DATA',
+ data: [
+   {
+     "feature_id": feature_id,
+     "value" : value
+   }
+ ]
+}
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;**feature_id**
+&nbsp;&nbsp;&nbsp;&nbsp;**Required** *String* with valid feature id
+
+&nbsp;&nbsp;&nbsp;&nbsp;**value**
+&nbsp;&nbsp;&nbsp;&nbsp;**Required** *Number*
+
+
 
 ## Types
 

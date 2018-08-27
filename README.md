@@ -332,7 +332,6 @@ dispatch it to mark feature.
 &nbsp;&nbsp;&nbsp;&nbsp;**Required** *String* with valid feature id
 
 
-
 ## Types
 
 ### <a name="popup_scope">PopupScope</a>

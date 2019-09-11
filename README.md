@@ -1,8 +1,8 @@
 # tmaps-web-sample
 
 ## Usage
-1- if you need to put indoor map in your website
-2- if you need to assign tenants to map drawn features in website adminstration portal and save feature_id to tenant in your database so later you can send tenants json to mobile SDKs (https://github.com/tagipedia/tmaps-ios-sample#set-tenant-data) or (https://github.com/tagipedia/tmaps-android-sample#set-tenant-data)
+1. if you need to put indoor map in your website
+2. if you need to assign tenants to map drawn features in website adminstration portal and save feature_id to tenant in your database so later you can send tenants json to mobile SDKs (https://github.com/tagipedia/tmaps-ios-sample#set-tenant-data) or (https://github.com/tagipedia/tmaps-android-sample#set-tenant-data)
 
 ## Installation
 ### To integrate TMaps into your Web project, add it to your project:
